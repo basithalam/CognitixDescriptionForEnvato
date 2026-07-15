@@ -76,7 +76,7 @@
   <!-- ARCHITECTURE BANNER -->
   <p style="margin:0 0 8px;"><strong>Architecture overview</strong></p>
   <!-- REPLACE_IMG_01_ARCHITECTURE — Modular Monolith architecture banner -->
-  <img src="REPLACE_IMG_01_ARCHITECTURE" alt="CognitixERP Modular Monolith Architecture" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 20px;display:block;" />
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(2).png" alt="CognitixERP Modular Monolith Architecture" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 20px;display:block;" />
 
   <h2 style="margin:28px 0 10px;font-size:22px;border-bottom:2px solid #e5e7eb;padding-bottom:6px;">Why CognitixERP?</h2>
   <ul style="margin:0 0 18px;padding-left:20px;">
@@ -102,28 +102,37 @@
   <h2 style="margin:28px 0 10px;font-size:22px;border-bottom:2px solid #e5e7eb;padding-bottom:6px;">What’s Included</h2>
   <ul style="margin:0 0 18px;padding-left:20px;">
     <li>Full source for WebApp + API + business modules</li>
+    <li>Modules: Billing, Procurement, Inventory + <strong>Stock</strong> + <strong>WMS</strong>, POS, Financials, Banking, CRM, HRM, Branching, Users, Compliance</li>
     <li>Buyer documentation (Installation, Production, FAQ, Developer Guide, User Manual)</li>
     <li>Setup Wizard for first-time configuration</li>
     <li>Licensing DLLs for marketplace builds</li>
     <li>Optional deploy samples (e.g. same-origin nginx / VPS)</li>
+    <li>Optional Windows Biometric Agent for HRM attendance</li>
   </ul>
 
   <!-- ===================== MODULES ===================== -->
   <h2 style="margin:32px 0 12px;font-size:22px;border-bottom:2px solid #e5e7eb;padding-bottom:6px;">Modules Overview</h2>
+  <p style="margin:0 0 18px;color:#475569;">
+    Full feature coverage below — including <strong>Stock</strong> and <strong>WMS</strong> (Warehouse Management) under Inventory.
+  </p>
 
   <!-- BILLING -->
   <h3 id="billing" style="margin:24px 0 8px;font-size:19px;color:#0f172a;">1. Billing Module</h3>
   <p style="margin:0 0 10px;color:#475569;">
     Manage and automate your billing process with tools designed for precision, efficiency, and customer satisfaction.
   </p>
-  <!-- REPLACE_IMG_02_BILLING — Billing Module Overview banner -->
-  <img src="REPLACE_IMG_02_BILLING" alt="CognitixERP Billing Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>Dashboard</strong> — quickly view billing performance metrics</li>
-    <li><strong>Quotations</strong> — generate and manage customer quotes</li>
-    <li><strong>Orders</strong> — track and process customer orders</li>
-    <li><strong>Invoices</strong> — create and manage customer invoices</li>
-    <li><strong>Customer receipts</strong> — digitally issue receipts to customers</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(3).png" alt="CognitixERP Billing Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>Dashboard</strong> — billing KPIs and sales overview</li>
+    <li><strong>Quotations</strong> — create, edit, preview customer quotes</li>
+    <li><strong>Sales Orders</strong> — process and track customer orders</li>
+    <li><strong>Sales Invoices</strong> — create, edit, preview invoices</li>
+    <li><strong>Customer Receipts</strong> — collections against receivables</li>
+    <li><strong>Credit Notes</strong> — credit notes from invoices</li>
+    <li><strong>Sales Returns</strong> — returns processing from invoices</li>
+    <li><strong>AR Aging</strong> — receivables aging analysis</li>
+    <li><strong>Workflow</strong> — Quotation → Order → Invoice</li>
+    <li><strong>Reports</strong> — AR aging, customer statement, collections, sales summary, tax summary, credit notes, sales returns, quotation conversion, audit trail</li>
   </ul>
 
   <!-- PROCUREMENT -->
@@ -131,31 +140,69 @@
   <p style="margin:0 0 10px;color:#475569;">
     Streamline your procurement process with effective tools for supplier management and purchasing.
   </p>
-  <!-- REPLACE_IMG_03_PROCUREMENT — Procurement Module Overview banner -->
-  <img src="REPLACE_IMG_03_PROCUREMENT" alt="CognitixERP Procurement Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>Suppliers</strong> — manage supplier information</li>
-    <li><strong>Quotations</strong> — request and compare quotes</li>
-    <li><strong>Orders</strong> — create and track purchase orders</li>
-    <li><strong>Invoices</strong> — record and verify supplier invoices</li>
-    <li><strong>Supplier payments</strong> — process payments efficiently</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(5).png" alt="CognitixERP Procurement Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>Suppliers</strong> — supplier master and details</li>
+    <li><strong>Supplier Quotations</strong> — request, compare, and preview quotes</li>
+    <li><strong>Purchase Orders</strong> — create/edit PO with workflow statuses</li>
+    <li><strong>Purchase Invoices (AP)</strong> — approve / ship / received flow</li>
+    <li><strong>Goods Receipt</strong> — stock update on invoice received (serial/batch when enabled)</li>
+    <li><strong>Supplier Payments</strong> — AP payments with receipt PDF</li>
+    <li><strong>Purchase Returns &amp; Debit Notes</strong></li>
+    <li><strong>AP Aging</strong> — payables aging</li>
+    <li><strong>Reports</strong> — payables aging, supplier statement, payments, purchase summary, open payables, tax/WHT, returns, PO pipeline, supplier spend, multi-currency, audit trail</li>
   </ul>
 
-  <!-- INVENTORY -->
-  <h3 id="inventory" style="margin:24px 0 8px;font-size:19px;color:#0f172a;">3. Inventory Module</h3>
+  <!-- INVENTORY + STOCK + WMS -->
+  <h3 id="inventory" style="margin:24px 0 8px;font-size:19px;color:#0f172a;">3. Inventory + Stock + WMS</h3>
   <p style="margin:0 0 10px;color:#475569;">
-    Manage inventory efficiently with comprehensive tools and insights.
+    Complete product catalog, stock operations, and warehouse management (WMS) in one module family.
   </p>
-  <!-- REPLACE_IMG_04_INVENTORY — Inventory Module Overview banner -->
-  <img src="REPLACE_IMG_04_INVENTORY" alt="CognitixERP Inventory Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(8).png" alt="CognitixERP Inventory Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+
+  <h4 style="margin:14px 0 6px;font-size:16px;color:#0f172a;">3A. Inventory / Product Masters</h4>
+  <ul style="margin:0 0 10px;padding-left:20px;">
+    <li><strong>Inventory Dashboard</strong> — products, stock value, low stock, aging buckets</li>
+    <li><strong>Products</strong> — multi-step create/edit/view (SKU, barcode, HSN, images)</li>
+    <li><strong>Product Types</strong> — Raw Material, Finished Good, Service, Consumable, Semi-Finished, Asset, Packaging, By-Product</li>
+    <li><strong>UoM</strong> — purchase &amp; sales units with conversion factor</li>
+    <li><strong>Costing</strong> — FIFO and Weighted Average</li>
+    <li><strong>Tax</strong> — tax rates / tax groups on products</li>
+    <li><strong>Variants</strong> — attribute-based variants with SKUs &amp; price adjustments</li>
+    <li><strong>Serial / Batch / Expiry</strong> — tracking toggles on products</li>
+    <li><strong>Multi-barcode</strong> — EAN-13, QR, Code128, UPC-A and more</li>
+    <li><strong>Product Groups, Brands, Categories</strong> — structured catalog</li>
+    <li><strong>Discount Types</strong> — discount configuration master</li>
+    <li><strong>Units of Measure</strong> — base &amp; derived UoM master</li>
+    <li><strong>Reorder Policies &amp; Alerts</strong> — min/max, reorder qty, lead time</li>
+    <li><strong>Warranty Claims</strong> — warranty period + claims tracking</li>
+    <li><strong>Product Templates</strong> — template-driven product setup</li>
+    <li><strong>Inventory Analytics &amp; Aging</strong> — insights and aging analysis</li>
+    <li><strong>Reports</strong> — product register, category/brand summary, alerts, warranty claims</li>
+  </ul>
+
+  <h4 style="margin:14px 0 6px;font-size:16px;color:#0f172a;">3B. Stock Operations</h4>
+  <ul style="margin:0 0 10px;padding-left:20px;">
+    <li><strong>Stock On Hand</strong> — qty, available, reserved; brand/category filters; stock value KPIs</li>
+    <li><strong>Branch Stock</strong> — cross-branch stock visibility</li>
+    <li><strong>Branch Opening Stock</strong> — single product, template bulk (variants), bulk import/paste, reverse/undo</li>
+    <li><strong>Stock Transfers</strong> — inter-branch / warehouse transfers with approval workflow</li>
+    <li><strong>Stock Adjustments</strong> — draft → submit → approve/reject/cancel with reasons</li>
+    <li><strong>Minimum Stock Thresholds</strong> — per-product / policy thresholds</li>
+    <li><strong>Product Valuation</strong> — valuation reporting</li>
+    <li><strong>Stock Reports</strong> — on-hand, branch summary, below minimum, overstock, transfer/adjustment registers, opening stock summary, stock in/out, reserved vs available, costing &amp; reorder coverage</li>
+  </ul>
+
+  <h4 style="margin:14px 0 6px;font-size:16px;color:#0f172a;">3C. WMS (Warehouse Management)</h4>
   <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>Dashboard</strong> — stock and performance overview</li>
-    <li><strong>Products</strong> — product master with images, SKU, barcode</li>
-    <li><strong>Product Groups / Brands / Categories</strong> — structured catalog</li>
-    <li><strong>Discount Types</strong> — flexible discount configuration</li>
-    <li><strong>Units of Measure</strong> — base &amp; sales UoM support</li>
-    <li><strong>Warranty Claims</strong> — claim tracking</li>
-    <li><strong>Inventory Analytics &amp; Aging</strong> — insights and aging alerts</li>
+    <li><strong>Warehouses</strong> — per branch; types Standard / Bonded / Cold / Hazmat; default warehouse</li>
+    <li><strong>Locations hierarchy</strong> — Zones → Racks → Bins</li>
+    <li><strong>Product default location</strong> — default warehouse / zone / rack / bin on product</li>
+    <li><strong>Putaway Rules</strong> — auto location / GRN putaway coverage</li>
+    <li><strong>Picking Lists</strong> — Draft / Assigned / In Progress / Done / Cancelled</li>
+    <li><strong>Stock Moves Register</strong> — internal WMS movement timeline</li>
+    <li><strong>Reorder Suggestions</strong> — operational suggestions + reports</li>
+    <li><strong>WMS Reports</strong> — stock movements, picking register/performance, putaway log &amp; rule coverage, warehouse/bin/rack utilization, reorder suggestions, pending tasks, zone stock distribution</li>
   </ul>
 
   <!-- POS -->
@@ -163,14 +210,17 @@
   <p style="margin:0 0 10px;color:#475569;">
     Optimize retail and sales operations with powerful POS features for seamless transactions and reporting.
   </p>
-  <!-- REPLACE_IMG_05_POS — POS Module Overview banner -->
-  <img src="REPLACE_IMG_05_POS" alt="CognitixERP POS Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>POS Terminal</strong> — efficient and intuitive sales interface</li>
-    <li><strong>Sales History</strong> — detailed sales transaction logs</li>
-    <li><strong>POS Sessions</strong> — open / close / monitor cashier sessions</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(4).png" alt="CognitixERP POS Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>POS Terminal</strong> — product grid, barcode search, cart, walk-in/customer</li>
+    <li><strong>Cash Sessions</strong> — open/close session by branch</li>
+    <li><strong>Payments</strong> — multi-tender / due sales style payments</li>
+    <li><strong>Hold Sale</strong> — park and resume sales</li>
     <li><strong>Coupons</strong> — create and apply promotional discounts</li>
-    <li><strong>POS Settings</strong> — customize terminal preferences</li>
+    <li><strong>Sales History</strong> — detailed transaction logs</li>
+    <li><strong>POS Sessions</strong> — monitor cashier sessions</li>
+    <li><strong>POS Settings</strong> — terminal preferences</li>
+    <li><strong>Reports</strong> — session summary, cash reconciliation, cashier performance, void/refund audit, sales detail, product mix, tender mix, hourly sales, coupon usage, tax, due sales, multi-currency, inventory impact, receipt audit</li>
   </ul>
 
   <!-- FINANCIALS -->
@@ -178,17 +228,22 @@
   <p style="margin:0 0 10px;color:#475569;">
     Manage your financial operations with accuracy, control, and real-time insights.
   </p>
-  <!-- REPLACE_IMG_06_FINANCIALS — Financials Module Overview banner -->
-  <img src="REPLACE_IMG_06_FINANCIALS" alt="CognitixERP Financials Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>Dashboard</strong> — financial KPIs at a glance</li>
-    <li><strong>Chart of Accounts</strong> — structured ledger accounts</li>
-    <li><strong>Journal Entry &amp; Opening Balance</strong> — full bookkeeping control</li>
-    <li><strong>Fiscal Years</strong> — period management</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(13).png" alt="CognitixERP Financials Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>Dashboard</strong> — financial KPIs</li>
+    <li><strong>Chart of Accounts</strong> — structured GL accounts</li>
+    <li><strong>Journal Entries</strong> — create, edit, view journals</li>
+    <li><strong>Opening Balances</strong> — opening balance entry</li>
+    <li><strong>Fiscal Years &amp; Period Close</strong></li>
     <li><strong>Payment Methods &amp; Payment Journals</strong></li>
-    <li><strong>Expenses &amp; Cost Centers</strong></li>
-    <li><strong>Currency Management</strong> — exchange rates, revaluation, observability</li>
-    <li><strong>Method Routing Matrix &amp; GL Account Mappings</strong></li>
+    <li><strong>Payment Method Routing Matrix</strong></li>
+    <li><strong>GL Account Mappings</strong> — module posting shortcuts</li>
+    <li><strong>Expenses</strong> — including recurring expenses</li>
+    <li><strong>Cost Centers</strong></li>
+    <li><strong>Currency Management</strong> — currencies, exchange rates, revaluation, observability</li>
+    <li><strong>Branch Cash Mapping</strong></li>
+    <li><strong>Core Statements</strong> — Trial Balance, General Ledger, Balance Sheet, P&amp;L, Cash Flow</li>
+    <li><strong>Reports</strong> — journal/COA registers, account balance, expense summary, cost-center P&amp;L, branch P&amp;L, FX revaluation, currency gain/loss, fiscal close, party ledger, WHT, audit trail</li>
   </ul>
 
   <!-- BANKING -->
@@ -196,17 +251,18 @@
   <p style="margin:0 0 10px;color:#475569;">
     Streamline your banking operations with secure, accurate, and intelligent tools.
   </p>
-  <!-- REPLACE_IMG_07_BANKING — Banking Module Overview banner -->
-  <img src="REPLACE_IMG_07_BANKING" alt="CognitixERP Banking Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(1).png" alt="CognitixERP Banking Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
     <li><strong>Dashboard</strong> — banking overview and analytics</li>
-    <li><strong>Accounts</strong> — manage bank accounts</li>
-    <li><strong>Transactions</strong> — incoming / outgoing movement</li>
-    <li><strong>Cheques</strong> — cheque management</li>
-    <li><strong>Transfer</strong> — account-to-account transfers</li>
+    <li><strong>Bank Accounts</strong> — create and manage accounts</li>
+    <li><strong>Transactions</strong> — incoming / outgoing movements</li>
+    <li><strong>Cheques</strong> — cheque management and aging</li>
+    <li><strong>Transfers</strong> — inter-account transfers</li>
     <li><strong>Import Statements</strong> — CSV / statement import</li>
     <li><strong>Reconciliation</strong> — match books with bank statements</li>
     <li><strong>Ledger</strong> — banking ledger view</li>
+    <li><strong>Banking CoA Settings</strong> — posting configuration</li>
+    <li><strong>Reports</strong> — account summary, bank ledger, cash flow, balance trend, unreconciled items, reconciliation variance, statement import log, cheque register, FX exposure, draft vs posted</li>
   </ul>
 
   <!-- CRM -->
@@ -214,18 +270,25 @@
   <p style="margin:0 0 10px;color:#475569;">
     Improve customer relationships and sales performance with a complete CRM toolkit.
   </p>
-  <!-- REPLACE_IMG_08_CRM — CRM Full Feature Overview banner -->
-  <img src="REPLACE_IMG_08_CRM" alt="CognitixERP CRM Full Feature Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(7).png" alt="CognitixERP CRM Full Feature Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
     <li><strong>Dashboard</strong> — CRM insights &amp; analytics</li>
-    <li><strong>Contacts / Leads / Customers</strong> — full relationship lifecycle</li>
-    <li><strong>Opportunities &amp; Sales Pipeline</strong> — visualize deal flow</li>
-    <li><strong>Sales Teams &amp; Activities</strong> — calls, tasks, team performance</li>
-    <li><strong>Lost Reasons &amp; Conversion Dashboard</strong> — learn from wins and losses</li>
-    <li><strong>Pipeline Settings &amp; Duplicate Detection</strong></li>
-    <li><strong>Automation</strong> — workflow automation</li>
-    <li><strong>Tickets</strong> — support &amp; service</li>
-    <li><strong>Sales Forecasts</strong> — predict revenue</li>
+    <li><strong>Contacts</strong> — contact master and details</li>
+    <li><strong>Leads</strong> — capture leads and convert to customers</li>
+    <li><strong>Customers</strong> — profiles with credit limit, tax ID, currency</li>
+    <li><strong>Opportunities</strong> — track sales deals</li>
+    <li><strong>Sales Pipeline</strong> — visual deal board</li>
+    <li><strong>Sales Teams</strong> — teams and team members</li>
+    <li><strong>Activities</strong> — calls, tasks, timeline</li>
+    <li><strong>Lost Reasons</strong> — analyze lost deals</li>
+    <li><strong>Pipeline Settings</strong> — customize sales stages</li>
+    <li><strong>Duplicate Detection</strong> — find and merge duplicates</li>
+    <li><strong>Automation</strong> — workflow automation rules</li>
+    <li><strong>Tickets</strong> — support &amp; service with SLA</li>
+    <li><strong>Sales Forecasts &amp; Conversion Dashboard</strong></li>
+    <li><strong>Customer Lifetime Value (CLV)</strong></li>
+    <li><strong>Chat</strong> — SignalR chat hub support</li>
+    <li><strong>Reports</strong> — pipeline, win/loss, revenue by team, conversion funnel, forecast vs actual, CLV, activity summary, ticket SLA, lead source, campaign performance</li>
   </ul>
 
   <!-- HRM -->
@@ -233,22 +296,26 @@
   <p style="margin:0 0 10px;color:#475569;">
     Complete human resource management — from organization structure to payroll and exit processes.
   </p>
-  <!-- REPLACE_IMG_09_HRM — HRM Full Feature Overview banner -->
-  <img src="REPLACE_IMG_09_HRM" alt="CognitixERP HRM Full Feature Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>Dashboard</strong> — HR insights &amp; analytics</li>
-    <li><strong>Organization Chart</strong> — hierarchy visualization</li>
-    <li><strong>Appraisals &amp; Employee Goals / Skills</strong></li>
-    <li><strong>Departments, Designations &amp; Contracts</strong></li>
-    <li><strong>Attendance</strong> — daily attendance &amp; kiosk</li>
-    <li><strong>Shifts &amp; Rotations</strong> — schedules and assignments</li>
-    <li><strong>Late Entry &amp; Regularization</strong></li>
-    <li><strong>Leave Management</strong> — applications &amp; leave types</li>
-    <li><strong>Payroll &amp; Benefits</strong> — salary processing, overtime</li>
-    <li><strong>Loans &amp; Advances</strong></li>
-    <li><strong>Resignations &amp; Terminations</strong> — exit / compliance tracking</li>
-    <li><strong>Approval Workflows</strong> — automated approvals</li>
-    <li><strong>Optional Biometric Agent</strong> — Windows-based attendance capture</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(6).png" alt="CognitixERP HRM Full Feature Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>Employee Dashboard &amp; Org Chart</strong></li>
+    <li><strong>Employees</strong> — register, details, edit, profile photo</li>
+    <li><strong>Departments, Designations, Grades</strong></li>
+    <li><strong>Contracts &amp; Visa Expiry</strong> tracking</li>
+    <li><strong>Onboarding / Boarding Templates</strong> + boarding pipeline</li>
+    <li><strong>Appraisals</strong> — cycles, templates, scoring</li>
+    <li><strong>Employee Goals &amp; Skills</strong></li>
+    <li><strong>Attendance</strong> — daily attendance, list, kiosk, my attendance</li>
+    <li><strong>Attendance Policy, Late Entry, Regularization</strong></li>
+    <li><strong>Shifts &amp; Rotations</strong> — schedules, assignments, shift swap</li>
+    <li><strong>Leave</strong> — types, allocations, applications, holidays</li>
+    <li><strong>Overtime</strong> — records and overtime policy</li>
+    <li><strong>Payroll &amp; Benefits</strong> — salary rules, structure templates, payslips</li>
+    <li><strong>Loans &amp; Salary Advances</strong></li>
+    <li><strong>Resignations &amp; Terminations</strong></li>
+    <li><strong>Approval Workflows</strong></li>
+    <li><strong>Optional Biometric Agent</strong> — Windows attendance capture</li>
+    <li><strong>Reports</strong> — headcount, attendance/leave, payroll, overtime, loans/advances, appraisals, visa/contract expiry, audit trail</li>
   </ul>
 
   <!-- BRANCHING -->
@@ -256,14 +323,14 @@
   <p style="margin:0 0 10px;color:#475569;">
     Configure company profile, branding, and multi-branch operations with clear organizational control.
   </p>
-  <!-- REPLACE_IMG_10_BRANCHING — file: banner-branching-module.png -->
-  <img src="REPLACE_IMG_10_BRANCHING" alt="CognitixERP Branching Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>Company Setup</strong> — company profile wizard</li>
-    <li><strong>Branding</strong> — logo and favicon</li>
-    <li><strong>Branches</strong> — multi-branch management</li>
-    <li><strong>Isolation</strong> — branch-level access control</li>
-    <li><strong>Company View</strong> — company details overview</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(9).png" alt="CognitixERP Branching Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>Company Management</strong> — company list and setup</li>
+    <li><strong>Company Setup Wizard</strong> — basics, contact, key people, timezone</li>
+    <li><strong>Branding</strong> — company logo and favicon</li>
+    <li><strong>Company View</strong> — read-only company profile</li>
+    <li><strong>Branches</strong> — create/edit branches (address, contact, status)</li>
+    <li><strong>Branch Isolation</strong> — branch-scoped stock, POS, banking, and more</li>
   </ul>
 
   <!-- USERS -->
@@ -271,15 +338,16 @@
   <p style="margin:0 0 10px;color:#475569;">
     Secure authentication, roles, permissions, and audit for enterprise access control.
   </p>
-  <!-- REPLACE_IMG_11_USERS — file: banner-users-module.png -->
-  <img src="REPLACE_IMG_11_USERS" alt="CognitixERP Users Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>Login &amp; Auth</strong> — JWT secure sign-in</li>
-    <li><strong>User Management</strong> — create and manage users</li>
-    <li><strong>Roles</strong> — role definitions</li>
-    <li><strong>Permissions</strong> — page and action access</li>
-    <li><strong>User Profile</strong> — personal settings and photo</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(12).png" alt="CognitixERP Users Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>Login &amp; Register</strong> — JWT authentication + refresh</li>
+    <li><strong>Forced Change Password</strong></li>
+    <li><strong>User Profile</strong> — preferences, language/theme, profile photo</li>
+    <li><strong>User Management</strong> — admin user administration</li>
+    <li><strong>Role Management</strong> — roles and role-permission matrix</li>
+    <li><strong>Permissions</strong> — page/action gated UI</li>
     <li><strong>Audit Viewer</strong> — security activity logs</li>
+    <li><strong>Licensing gate</strong> — license-aware runtime enforcement</li>
   </ul>
 
   <!-- COMPLIANCE -->
@@ -287,14 +355,18 @@
   <p style="margin:0 0 10px;color:#475569;">
     Regional tax and e-invoice compliance profiles, reports, and audit trails.
   </p>
-  <!-- REPLACE_IMG_12_COMPLIANCE — file: banner-compliance-module.png -->
-  <img src="REPLACE_IMG_12_COMPLIANCE" alt="CognitixERP Compliance Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
-  <ul style="margin:0 0 18px;padding-left:20px;">
-    <li><strong>E-Invoice</strong> — compliance profiles</li>
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(10).png" alt="CognitixERP Compliance Module Overview" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 12px;display:block;" />
+  <ul style="margin:0 0 8px;padding-left:20px;">
+    <li><strong>Taxation Master</strong> — tax rates and tax groups</li>
+    <li><strong>E-Invoice Profiles</strong> — ZATCA (KSA), GST India, NBR (regional)</li>
+    <li><strong>Sandbox / Production</strong> modes and onboarding options</li>
+    <li><strong>E-Invoice Audit Trail</strong></li>
     <li><strong>ZATCA Reports</strong> — Saudi e-invoicing reports</li>
     <li><strong>GST Reports</strong> — GST compliance reporting</li>
     <li><strong>NBR Reports</strong> — regional tax reporting</li>
-    <li><strong>Audit Trail</strong> — e-invoice audit history</li>
+    <li><strong>WHT Reports</strong> — withholding tax summary</li>
+    <li><strong>Tax Summary</strong> — cross-module tax reporting</li>
+    <li><strong>Integration</strong> — hooks into Billing, Procurement, and POS e-invoice flows</li>
   </ul>
 
   <!-- ROADMAP / COMING SOON -->
@@ -304,7 +376,7 @@
     Native <strong>Desktop</strong> and <strong>Mobile</strong> clients are on the roadmap — stay tuned for future updates.
   </p>
   <!-- REPLACE_IMG_13_COMING_SOON — file: banner-desktop-mobile-coming-soon.png -->
-  <img src="REPLACE_IMG_13_COMING_SOON" alt="CognitixERP Desktop and Mobile Apps Coming Soon" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 18px;display:block;" />
+  <img src="https://raw.githubusercontent.com/basithalam/CognitixDescriptionForEnvato/main/DescriptionImg%20(11).png" alt="CognitixERP Desktop and Mobile Apps Coming Soon" style="max-width:100%;height:auto;border-radius:8px;margin:0 0 18px;display:block;" />
 
   <h2 style="margin:28px 0 10px;font-size:22px;border-bottom:2px solid #e5e7eb;padding-bottom:6px;">Requirements</h2>
   <ul style="margin:0 0 18px;padding-left:20px;">
@@ -362,10 +434,6 @@
     Please include your CodeCanyon purchase code, product version, and a short description of the issue when contacting support.
   </p>
 
-  <p style="margin:24px 0 0;padding:14px 16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;font-size:14px;color:#334155;">
-    <strong>Note:</strong> Preview banners above are hosted by the author. Replace each
-    <code>REPLACE_IMG_*</code> URL with your live image URL after uploading banners to your server/CDN.
-  </p>
 
 </div>
 
